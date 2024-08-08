@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #daf0c8d3;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #0fa70f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+ 
+}
+
+.header strong {
+  font-size: 30px;
+}
+
+.posts {
+  padding: 5px;
+}
+
+.post {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.356);
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.post-title {
+
+  font-size: 25px;
+  margin: 10px 0;
+  color: #0fa70f;
+  border-radius: 5px;
+  margin-top: 3px;
+
+}
+
+
+
+.post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.post-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.post-category {
+  display: inline-block;
+  
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-top: 3px;
+  animation: but 4s linear infinite;
+
+}
+@keyframes but {
+    0%   {background-color: rgba(52, 255, 171, 0.849);}
+    25%  {background-color: rgba(94, 96, 255, 0.863);}
+    50%  {background-color: rgba(83, 230, 250, 0.877);}
+    75% {background-color: rgba(222, 91, 255, 0.856);} 
+    100% {background-color: rgba(91, 255, 200, 0.849);} 
+}
+
